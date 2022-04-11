@@ -1,0 +1,106 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.card{
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 900px;
+  min-height: 400px;
+}
+.card h1{
+  font-weight: 900;
+}
+.card p{
+  font-size: 14px;
+}
+
+
+.contentContainer{
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+  align-items: flex-start;
+  justify-items: start;
+  flex-direction: column;
+}
+
+
+.learnMoreBtn{
+  margin-top: 25px;
+  cursor: pointer;
+  padding: 13px 10px;
+  background: white;
+  min-width: 150px;
+  border: white;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 15px;
+}
+
+
+.learnMoreBtn:hover{
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+
+.card div:first-child{
+  background: #e38524;
+}
+
+.card >div:nth-child(2n){
+  background: #016873;
+}
+
+
+.card >div:last-child{
+  background: #00413e;
+}
+
+.attribution{
+  position: absolute;
+  bottom: 3px;
+  display: flex;
+  width: fit-content;
+  font-size: 16px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-weight: 700;
+  color: black;
+}
+.attribution *{
+  margin: auto 5px;
+}
+
+.attribution a{
+  color: #4ddb99;
+  font-weight:900;
+  text-decoration: none;
+}
+
+
+@media (max-width:648px) {
+.app{
+  height: 100%;
+
+}
+  .card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .attribution{
+    display: none;
+    visibility: collapse;
+  }
+}
