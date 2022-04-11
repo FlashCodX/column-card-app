@@ -36,7 +36,7 @@ function App() {
         </div>
       </main>
 
-      <div className={attribution}>
+      <footer className={attribution}>
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-"
@@ -54,7 +54,7 @@ function App() {
           Luís Pinto
         </a>
         .
-      </div>
+      </footer>
     </div>
   );
 }
