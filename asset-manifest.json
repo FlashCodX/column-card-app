@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/column-card-app/static/css/main.1e35f066.css",
-    "main.js": "/column-card-app/static/js/main.d4dde3d5.js",
+    "main.css": "/column-card-app/static/css/main.0a39ffc9.css",
+    "main.js": "/column-card-app/static/js/main.0801fb4b.js",
     "static/media/icon-luxury.svg": "/column-card-app/static/media/icon-luxury.7d6e1aefdc39c4742fbb039e7f97a503.svg",
     "static/media/icon-suvs.svg": "/column-card-app/static/media/icon-suvs.058b664c311101933ebda84111ddd9b6.svg",
     "static/media/icon-sedans.svg": "/column-card-app/static/media/icon-sedans.e794502801c486bcffc3513f6f03141e.svg",
     "index.html": "/column-card-app/index.html",
-    "main.1e35f066.css.map": "/column-card-app/static/css/main.1e35f066.css.map",
-    "main.d4dde3d5.js.map": "/column-card-app/static/js/main.d4dde3d5.js.map"
+    "main.0a39ffc9.css.map": "/column-card-app/static/css/main.0a39ffc9.css.map",
+    "main.0801fb4b.js.map": "/column-card-app/static/js/main.0801fb4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e35f066.css",
-    "static/js/main.d4dde3d5.js"
+    "static/css/main.0a39ffc9.css",
+    "static/js/main.0801fb4b.js"
   ]
 }
