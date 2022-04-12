@@ -2,13 +2,14 @@ import styles from "./styles/App.module.css";
 const sedans = require("./assets/icon-sedans.svg").default;
 const suvs = require("./assets/icon-suvs.svg").default;
 const luxury = require("./assets/icon-luxury.svg").default;
-const { app, card, contentContainer, learnMoreBtn, attribution } = styles;
+const { app, card, contentContainer, learnMoreBtn, attribution, carIcon } =
+  styles;
 function App() {
   return (
     <div className={app}>
       <main className={card}>
         <div className={contentContainer}>
-          <img src={sedans} alt="carimage" />
+          <img src={sedans} className={carIcon} alt="carimage" />
           <h1>Sedans</h1>
           <p>
             Choose a sedan for its affordability and excellent fuel economy.
@@ -17,7 +18,7 @@ function App() {
           <button className={learnMoreBtn}>Learn More</button>
         </div>
         <div className={contentContainer}>
-          <img src={suvs} alt="carimage" />
+          <img src={suvs} className={carIcon} alt="carimage" />
           <h1>Suvs</h1>
           <p>
             Take an SUV for its spacious interior, power, and versatility.
@@ -26,7 +27,7 @@ function App() {
           <button className={learnMoreBtn}>Learn More</button>
         </div>
         <div className={contentContainer}>
-          <img src={luxury} alt="carimage" />
+          <img src={luxury} className={carIcon} alt="carimage" />
           <h1>Luxury</h1>
           <p>
             Cruise in the best car brands without the bloated prices. Enjoy the
